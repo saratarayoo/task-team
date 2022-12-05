@@ -1,0 +1,67 @@
+html{
+    font-size: 62.5%;
+}
+.header{
+    padding-top: 2.0rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.3rem;
+    text-align: center;
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: solid;
+}
+.role{
+ padding: 0.5rem; 
+ font-size:small;  
+ color: rgb(85, 40, 175);
+ font-weight: 500;
+}
+.name{
+    font-size: medium;
+    padding-top: 0.5rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    padding:0.5rem;
+    
+}
+.teams{
+   font-size: small;
+   text-align: center;
+   background-color: antiquewhite;
+   margin: 3.0rem;
+   padding: 6.0rem;
+}
+.images{
+     justify-content: center;
+     align-items: center;
+}
+.sociallinks{
+    justify-content: center;
+    padding-top: 2.5rem;
+    color: #000ace;
+}
+@media (max-width:55rem) {
+    .container{
+        justify-content: center;
+          align-items: center;
+          width: auto;
+          display:block;
+    }
+    .teams{
+        justify-content: center;
+        width: auto;
+        height:auto;
+    }
+    .header
+    {
+        justify-content: center;
+    }
+    .images{
+        justify-self: center;
+        align-self: center;
+    }
+}
+    
